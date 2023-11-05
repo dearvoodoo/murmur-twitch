@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'avenir-black';
+    src: url('../font/avenir/Avenir-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-black-oblique';
+    src: url('../font/avenir/Avenir-BlackOblique.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-book';
+    src: url('../font/avenir/Avenir-Book.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-book-oblique';
+    src: url('../font/avenir/Avenir-BookOblique.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-heavy';
+    src: url('../font/avenir/Avenir-Heavy.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-heavy-oblique';
+    src: url('../font/avenir/Avenir-HeavyOblique.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-light';
+    src: url('../font/avenir/Avenir-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-light-oblique';
+    src: url('../font/avenir/Avenir-LightOblique.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-medium';
+    src: url('../font/avenir/Avenir-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-medium-oblique';
+    src: url('../font/avenir/Avenir-MediumOblique.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-oblique';
+    src: url('../font/avenir/Avenir-Oblique.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'avenir-roman';
+    src: url('../font/avenir/Avenir-Roman.woff2') format('woff2');
+}
+
+
+
+body, html {
+	background: #232130;
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+	display: flex;
+	flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+}
+
+.card.bg-obs {
+	background: rgb(0 0 0 / 60%);
+	border-radius: 15px;
+	color: #ffffff;
+    box-shadow: 0px 0px 20px 10px var(--color1);
+    animation: shadows 1.5s infinite;
+    width: 435px;
+    height: auto;
+}
+
+@keyframes shadows {
+    0% {
+        text-shadow: var(--color1) 0 0 10px;
+        box-shadow: 0px 0px 20px 10px var(--color1);
+    }
+    50% {
+        text-shadow: var(--color2) 0 0 10px;
+        box-shadow: 0px 0px 20px 10px var(--color2);
+    }
+    75% {
+        text-shadow: var(--color2) 0 0 10px;
+        box-shadow: 0px 0px 20px 10px var(--color2);
+    }
+    100% {
+        text-shadow: var(--color1) 0 0 10px;
+        box-shadow: 0px 0px 20px 10px var(--color1);
+    }
+}
+
+.card-body {
+    display: flex!important;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body img {
+	border-radius: 13px;
+    margin-top: 20px;
+}
+
+.event-title {
+	font-family: "avenir-black", Tahoma, sans-serif;
+    position: absolute;
+    font-size: 3rem;
+    letter-spacing: -1px;
+    transform: rotate(358deg);
+    top: -28px;
+}
+
+.username {
+    font-family: 'avenir-black';
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    background: #4f4f4f;
+    border-radius: 5px;
+    padding: 0.2em 0.75em;
+    width: 100%;
+    margin-top: 30px;
+    --animate-delay: 2.9s;
+}
+
+.description {
+    font-family: 'avenir-book';
+    margin-top: 15px;
+    --animate-delay: 3s;
+}
+
+.alert-type {
+    font-family: 'avenir-black';
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    background: #4f4f4f;
+    border-radius: 5px;
+    padding: 0.2em 0.75em;
+    width: 100%;
+    margin-top: 30px;
+    --animate-delay: 3.1s;
+}
+
+.alert-value {
+    font-family: 'avenir-black';
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    background: #4f4f4f;
+    border-radius: 5px;
+    padding: 0.2em 0.75em;
+    width: 100%;
+    margin-top: 30px;
+    --animate-delay: 3.2s;
+}
+
+.bits-icon {
+    width: 2rem;
+}
+
+.gift-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
