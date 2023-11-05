@@ -145,7 +145,7 @@ $(document).ready(function() {
 })
 
 var clipboard = new ClipboardJS('.clipboard', { container: document.getElementById('cmdsModal') });
-var clipboard_ps = new ClipboardJS('.clipboard', { container: document.getElementById('playsoundsModal') });
+var clipboard_ps = new ClipboardJS('.clipboard_ps', { container: document.getElementById('playsoundsModal') });
 
 clipboard.on('success', function(e) {
     console.info('Action:', e.action);

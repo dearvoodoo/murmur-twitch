@@ -130,3 +130,89 @@ td, tr {
 .table>:not(:last-child)>:last-child>* {
     border-color: var(--active);
 }
+
+.page-item.disabled .page-link {
+    color: var(--text-5);
+    pointer-events: none;
+    background-color: var(--bg-4);
+    border-color: var(--bg-3);
+}
+
+.page-link {
+    color: var(--accent-1);
+    background-color: var(--bg-2);
+    border: 1px solid var(--bg-1);
+}
+
+.page-link:hover {
+    color: var(--accent-1);
+    background-color: var(--hover);
+    border-color: var(--bg-1);
+}
+
+.page-item.active .page-link {
+    color: var(--accent-1);
+    background-color: var(--accent-opacity-20);
+    border-color: var(--accent-opacity-30);
+}
+
+.page-link:focus {
+    color: var(--accent-1);
+    background-color: var(--hover);
+    box-shadow: 0 0 0 0.25rem rgb(242 10 54 / 25%);
+}
+
+.form-control, .form-select {
+    color: var(--text-2);
+    background-color: var(--bg-2);
+    border: 1px solid var(--bg-1);
+}
+
+.form-control:focus, .form-select:focus {
+    color: var(--text-2);
+    background-color: var(--bg-2);
+    border: 1px solid var(--bg-1);
+    box-shadow: 0 0 0 0.25rem rgb(242 10 54 / 25%);
+}
+
+table.dataTable thead>tr>th.sorting:before, table.dataTable thead>tr>th.sorting_asc:before, table.dataTable thead>tr>th.sorting_desc:before, table.dataTable thead>tr>th.sorting_asc_disabled:before, table.dataTable thead>tr>th.sorting_desc_disabled:before, table.dataTable thead>tr>td.sorting:before, table.dataTable thead>tr>td.sorting_asc:before, table.dataTable thead>tr>td.sorting_desc:before, table.dataTable thead>tr>td.sorting_asc_disabled:before, table.dataTable thead>tr>td.sorting_desc_disabled:before {
+    bottom: 52%;
+    content: "▲";
+    content: "\f062";
+    font-family: 'Font Awesome 6 Pro';
+}
+
+table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:after, table.dataTable thead>tr>th.sorting_desc:after, table.dataTable thead>tr>th.sorting_asc_disabled:after, table.dataTable thead>tr>th.sorting_desc_disabled:after, table.dataTable thead>tr>td.sorting:after, table.dataTable thead>tr>td.sorting_asc:after, table.dataTable thead>tr>td.sorting_desc:after, table.dataTable thead>tr>td.sorting_asc_disabled:after, table.dataTable thead>tr>td.sorting_desc_disabled:after {
+    top: 51%;
+    content: "▼";
+    content: "\f063";
+    font-family: 'Font Awesome 6 Pro';
+}
+.btn-close {
+    background: none;
+    width: auto;
+    height: auto;
+    color: var(--accent-1);
+    opacity: 1
+}
+
+.btn-close:hover {
+    background: none;
+    width: auto;
+    height: auto;
+    color: var(--accent-1);
+    opacity: .8
+}
+
+.btn-close::before{
+    content: "\f00d";
+    font-family: 'Font Awesome 6 Pro';
+    font-size: xx-large;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
