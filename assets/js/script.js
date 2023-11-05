@@ -54,9 +54,6 @@ function setDatatable(type) {
                     [ 3, 'desc' ]
                 ]
             });
-            new ClipboardJS('.clipboard_ps', {
-                container: document.getElementById('table_cmds')
-            });
         }, 1000);
     }
 }
@@ -147,7 +144,8 @@ $(document).ready(function() {
     })
 })
 
-var clipboard = new ClipboardJS('.clipboard', { container: document.getElementsByClassName('modal') });
+var clipboard = new ClipboardJS('.clipboard', { container: document.getElementById('cmdsModal') });
+var clipboard_ps = new ClipboardJS('.clipboard', { container: document.getElementById('playsoundsModal') });
 
 clipboard.on('success', function(e) {
     console.info('Action:', e.action);
@@ -156,7 +154,19 @@ clipboard.on('success', function(e) {
     e.clearSelection();
 });
 
+clipboard_ps.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+    e.clearSelection();
+});
+
 clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
+
+clipboard_ps.on('error', function(e) {
     console.error('Action:', e.action);
     console.error('Trigger:', e.trigger);
 });
