@@ -1,0 +1,132 @@
+:root {
+    /* GLOBAL OPTION */
+    --spacing: 12px; /* amount of spacing and padding */
+    --roundness: 10px; /* radius of round corners */
+    --window-name: 'HAIL SATAN!'; /* text in the upper left side of the discord app */
+
+    /* THEME ACCENT COLOR */
+    --accent-1: hsl(340, 92%, 49%); /* color of links */
+    --accent-2: hsl(340, 92%, 42%); /* color of unread dividers and some indicators */
+    --accent-3: hsl(340, 92%, 40%); /* color of accented buttons */
+    --accent-4: hsl(340, 92%, 30%); /* color of accented buttons when hovered */
+    --accent-5: hsl(340, 92%, 20%); /* color of accented buttons when clicked */
+    --accent-opacity-90: rgba(240, 10, 87, 0.90);
+    --accent-opacity-80: rgba(240, 10, 87, 0.80);
+    --accent-opacity-70: rgba(240, 10, 87, 0.70);
+    --accent-opacity-60: rgba(240, 10, 87, 0.60);
+    --accent-opacity-50: rgba(240, 10, 87, 0.50);
+    --accent-opacity-40: rgba(240, 10, 87, 0.40);
+    --accent-opacity-30: rgba(240, 10, 87, 0.30);
+    --accent-opacity-20: rgba(240, 10, 87, 0.20);
+    --accent-opacity-10: rgba(240, 10, 87, 0.10);
+    --accent-opacity-05: rgba(240, 10, 87, 0.05);
+
+    /* MENTION COLOR */
+    --mention: hsla(160, 60%, 50%, 0.1);/* color of mentions and messages that mention you */
+    --mention-hover: hsla(160, 60%, 50%, 0.05);/* color of mentions and messages that mention you when hovered */
+
+    /* TEXT COLOR */
+    --text-1: hsl(220, 40%, 90%);/* color of bright text on colored buttons */
+    --text-2: hsl(220, 34%, 76%);/* color of headings and important text */
+    --text-3: hsl(221, 23%, 76%);/* color of normal text */
+    --text-4: hsl(219, 13%, 48%);/* color of icon buttons and channels */
+    --text-5: hsl(220, 15%, 40%);/* color of muted channels/chats and timestamps */
+
+    /* BACKGROUND */
+    --bg-1: #2b303b; /* color of dark buttons when clicked */
+    --bg-2: #21242b; /* color of dark buttons */
+    --bg-3: #1c1f26; /* color of spacing around panels and secondary elements */
+    --bg-4: #0f1219; /* main background color */
+
+    /* HOVER & ACTIVE COLOR */
+    --hover: hsla(230, 20%, 40%, 0.1); /* color of channels and icon buttons when hovered */
+    --active: hsla(220, 20%, 40%, 0.2); /* color of channels and icon buttons when clicked or selected */
+    --message-hover: hsla(220, 0%, 0%, 0.1); /* color of messages when hovered */
+
+    --scrollbar-auto-thumb: var(--bg-1)!important;
+    --scrollbar-auto-track: var(--bg-3)!important;
+    --scrollbar-thin-thumb: var(--bg-3)!important;
+    --scrollbar-thin-track: transparant!important;
+}
+
+html, body {
+	background-color: var(--bg-2);
+	color: var(--text-1)
+}
+
+.card {
+	background: var(--bg-4);
+	border: none;
+	border-radius: var(--roundness);
+
+}
+
+.card#card-menu {
+	transition: ease-in-out .2s;
+}
+.card#card-menu:hover {
+	transform: scale(1.03)
+}
+
+.btn-primary {
+	background: var(--accent-opacity-70);
+	border: none;
+	border-radius: var(--roundness);
+}
+
+.btn-primary:hover {
+	background: var(--accent-opacity-90);
+	border: none;
+	border-radius: var(--roundness);
+}
+
+.modal {
+	background: #2b303b99;
+}
+
+.modal-header {
+	background: var(--bg-4);
+	border: none;
+	border-radius: var(--roundness);
+	margin-bottom: 1em
+}
+
+.modal-body {
+	background: var(--bg-4);
+	border: none;
+	border-radius: var(--roundness);
+}
+
+.modal-content {
+	background: none;
+	border: none;
+}
+
+td, tr {
+    color: var(--text-1)
+}
+
+.bg-dark {
+    background-color: var(--bg-1)!important;
+}
+
+.clipboard {
+    background: none;
+    border: none;
+    text-align: center;
+    border-radius: 0.25rem;
+    background-color: var(--bg-1)!important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: var(--bg-2);
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: var(--bg-3);
+}
+
+.table>:not(caption)>*>*,
+.table>:not(:last-child)>:last-child>* {
+    border-color: var(--active);
+}

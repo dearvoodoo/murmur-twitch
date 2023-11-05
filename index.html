@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Murmur Twitch Commands</title>
+    <meta name="description" content="Murmur bot Twitch chat command list">
+    <meta property="og:description" content="Murmur bot Twitch chat command list">
+    <meta name="twitter:description" content="Murmur bot Twitch chat command list">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link href="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-1.13.6/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/fa/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <body>
+        <row class="justify-content-center d-flex mx-auto text-center p-5">
+            <col>
+            <div class="card me-3" id="card-menu">
+                <div class="card-body">
+                    <h5 class="card-title">Stream commands</h5>
+                    <p class="card-text">All the commands related to the twitch chat and stream. Some of the commands is
+                        only available for the stream, the moderators and the subscribers.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cmdsModal">
+                        <i class="fab fa-twitch me-2"></i> Show global commands
+                    </a>
+                </div>
+            </div>
+            </col>
+            <col>
+            <div class="card me-3" id="card-menu">
+                <div class="card-body">
+                    <h5 class="card-title">Playsounds commands</h5>
+                    <p class="card-text">Playsounds commands is available on the Twitch stream for Subscribers.
+                        Playsounds commands will play a sounds directly on the stream.</p>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#playsoundsModal">
+                        <i class="fab fa-twitch me-2"></i> Show playsounds commands
+                    </a>
+                </div>
+            </div>
+            </col>
+        </row>
+    </body>
+
+
+    <div class="modal fade" id="cmdsModal" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="cmdsModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl text-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    <table class="table table-striped" style="width:100%" id="table_cmds">
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="playsoundsModal" data-bs-backdrop="static" tabindex="-1"
+        aria-labelledby="playsoundsModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl text-center">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    <table class="table table-striped" style="width:100%" id="table_playsounds">
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js'></script>
+    <script src="https://cdn.datatables.net/v/bs5/jq-3.7.0/dt-1.13.6/af-2.6.0/b-2.4.1/b-colvis-2.4.1/b-html5-2.4.1/cr-1.7.0/date-1.5.1/fc-4.3.0/fh-3.4.0/kt-2.10.0/r-2.5.0/rg-1.4.0/rr-1.4.1/sc-2.2.0/sb-1.5.0/sp-2.2.0/sl-1.7.0/sr-1.3.0/datatables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js"></script>
+    <script src='./assets/js/script.js'></script>
+</body>
+
+</html>

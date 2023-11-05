@@ -1,0 +1,1842 @@
+[
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!info",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!information",
+            "!informations",
+            "!infos"
+        ],
+        "permission": "v",
+        "description": "Donne les informations sur le jeu actuel.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!actualsong",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!song",
+            "!spotify",
+            "!musique"
+        ],
+        "permission": "v",
+        "description": "Show the actual playing song on the stream. (Artist + Title + Spotify link)",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!alert",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!alerte",
+            "!alertes",
+            "!alerts"
+        ],
+        "permission": "v",
+        "description": "Show information about custom alerts",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!animal",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Playsound: play a sound on stream (Random animal sound)",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!announcediscord",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!disca"
+        ],
+        "permission": "am",
+        "description": "Send announce to Discord.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!bjr",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!hello",
+            "!hey",
+            "!bonjour",
+            "!holla",
+            "!hellow",
+            "!bonsoir"
+        ],
+        "permission": "v",
+        "description": "Say Hi :)",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!bot",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!murmur"
+        ],
+        "permission": "v",
+        "description": "Show information about Murmur. (THE Bot)",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!boutique",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!merch",
+            "!vetement",
+            "!vetements",
+            "!fringue",
+            "!fringues"
+        ],
+        "permission": "v",
+        "description": "Show information about my merch show called The Coven.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!d4build",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Show information about my build on Diablo IV",
+        "disabled": true
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!cam",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Show you what cam I use",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!card",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!streamloots",
+            "!streamloot",
+            "!loot",
+            "!loots",
+            "!cartes",
+            "!carte",
+            "!cards"
+        ],
+        "permission": "v",
+        "description": "Show information about Streamloots cards",
+        "disabled": true
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!carey",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!kraie",
+            "!krey",
+            "!kray"
+        ],
+        "permission": "v",
+        "description": "Show Carey state [December Event]",
+        "disabled": true
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!cartegraphique",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!gpu",
+            "!cg"
+        ],
+        "permission": "v",
+        "description": "Show you what GPU I use",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!casque",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!headphone"
+        ],
+        "permission": "v",
+        "description": "Show you what headset I use",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!choixpeau",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!sortinghat",
+            "!whathouse",
+            "!myhouse"
+        ],
+        "permission": "v",
+        "description": "Link for voting for your HP house.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!clavier",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!keyboard"
+        ],
+        "permission": "v",
+        "description": "Show you what keyboard I use.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!clip",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "s",
+        "description": "Create a clip and publish.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!controller",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!manette"
+        ],
+        "permission": "v",
+        "description": "Show you what controller I use.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!cpu",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!proco",
+            "!processeur"
+        ],
+        "permission": "v",
+        "description": "Show what CPU I have.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!d2",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!destiny2",
+            "!destiny"
+        ],
+        "permission": "v",
+        "description": "Information about the game Destiny 2",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!drop",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!twitchdrop",
+            "!drops",
+            "!twitchdrops"
+        ],
+        "permission": "v",
+        "description": "Information about Twitch Drop on the actual game.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!deviantart",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Give the link of this social network.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!disca2",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!discorsannounceagain",
+            "!discagain"
+        ],
+        "permission": "m",
+        "description": "Announce on Discord again for long stream or if I change the game.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!discord",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Give the link of this social network.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!don",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!dons",
+            "!donate",
+            "!tip",
+            "!tips"
+        ],
+        "permission": "v",
+        "description": "Show information about tips and donating your money to the streamer. (DO IT) :P ♥",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!ecran",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!ecrans",
+            "!screen",
+            "!screens"
+        ],
+        "permission": "v",
+        "description": "show you what screens I use.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!game",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Get the name of the actual game.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!hunt",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!huntshowdown",
+            "!panpandanslebayou"
+        ],
+        "permission": "v",
+        "description": "Show information about Hunt: Showdown.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!insta",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!ig",
+            "!instagram"
+        ],
+        "permission": "v",
+        "description": "Give the link of this social network.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!kofi",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Give the link of this social network.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!mark",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!marker"
+        ],
+        "permission": "m",
+        "description": "Set a marker on the stream. Help me for time code on Youtube videos.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!mic",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!micro"
+        ],
+        "permission": "v",
+        "description": "Show you what mic I use.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!mouse",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!souris"
+        ],
+        "permission": "v",
+        "description": "Show you what mouse I use.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!planning",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!",
+            "!",
+            "!"
+        ],
+        "permission": "v",
+        "description": "Send my planning link into the chat.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!playsound",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!ps"
+        ],
+        "permission": "v",
+        "description": "Information about playsounds commandes <a href=\"#\" onclick=\"getPlaysoundsCmds()\" data-bs-target=\"#playsounds-modal\" data-bs-toggle=\"modal\" class=\"btn btn-primary btn-small\">Show cmds</a>",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!politic",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!politics",
+            "!politique"
+        ],
+        "permission": "v",
+        "description": "Information about politics in the chat.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!remrot",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "m",
+        "description": "Remove one burp on the counter",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!rot",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!",
+            "!",
+            "!"
+        ],
+        "permission": "s",
+        "description": "Add one burp at the counter",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!sauvegarde",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!save"
+        ],
+        "permission": "v",
+        "description": "Remember me to save what I am doing.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!setgame",
+            "value": "game_name",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "m",
+        "description": "Change the game of the stream.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!settitle",
+            "value": "title",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "m",
+        "description": "Change the title of the stream.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!setup",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Send my setup in the chat.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!site",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [
+            "!website",
+            "!web"
+        ],
+        "permission": "v",
+        "description": "Send my website linkj in the chat.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!twitter",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Send this social network link",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!uptime",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Uptime of the stream.",
+        "disabled": false
+    },
+    {
+        "type": "cmd",
+        "command": {
+            "command": "!x",
+            "value": "",
+            "optional": []
+        },
+        "aliases": [],
+        "permission": "v",
+        "description": "Send this social network link",
+        "disabled": false
+    },
+    {
+        "type": "playsounds",
+        "list": [
+            {
+                "command": "0mg",
+                "aliases": [
+                    "cholesterol"
+                ],
+                "description": "OMG Cholesterol",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "absolutly",
+                "aliases": [],
+                "description": "Dragrace.",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "afida",
+                "aliases": [],
+                "description": "Ouuuuh nanana !",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "andioop",
+                "aliases": [],
+                "description": "And I Oop !?",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "avadakedavra",
+                "aliases": [
+                    "avidikedivri"
+                ],
+                "description": "Harry potter.",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "babey",
+                "aliases": [
+                    "bajbej",
+                    "baybey",
+                    "baby"
+                ],
+                "description": "Britney remix",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "badumtss",
+                "aliases": [],
+                "description": "Good joke",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "baptiste",
+                "aliases": [],
+                "description": "Mais ça va pas Baptiste.",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "bandedesalopes",
+                "aliases": [
+                    "bds",
+                    "bandedesalopes",
+                    "bandedesalope"
+                ],
+                "description": "Bande de salopes",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "bleu",
+                "aliases": [
+                    "bleu",
+                    "enbleu",
+                    "mariee",
+                    "mariée",
+                    "mariéeenbleu"
+                ],
+                "description": "<span style='color:blue'>En bleu</span>",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "bonsoirparis",
+                "aliases": [],
+                "description": "Bilal. Bonsoir Pariiiiiiis",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "bye",
+                "aliases": [],
+                "description": "Bye have a great time.",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "carriemae",
+                "aliases": [],
+                "description": "Carrie mae",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "cassecouille",
+                "aliases": [],
+                "description": "Elle va pas me casser les couilles",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "clapclap",
+                "aliases": [
+                    "bravo"
+                ],
+                "description": "Bravo ! 👏",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "coin",
+                "aliases": [],
+                "description": "🦆",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "connasse",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "cricket",
+                "aliases": [
+                    "crickets"
+                ],
+                "description": "🦗",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "danceforme",
+                "aliases": [],
+                "description": "Musique (long)",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "danstoncul",
+                "aliases": [
+                    "carole"
+                ],
+                "description": "Dans ton cul carole !",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "dick",
+                "aliases": [],
+                "description": "Let me talk about my dick.",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "eternity",
+                "aliases": [],
+                "description": "🧽",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "eventualy",
+                "aliases": [],
+                "description": "🧽",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "ewmichelle",
+                "aliases": [],
+                "description": "Dragrace",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "forreal",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "gayyy",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "gnegnegne",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "goodforyou",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "goodsoup",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "grognasse",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "gulp",
+                "aliases": [
+                    "deepthroat"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "harmonie",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "hefuckedup",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "helico",
+                "aliases": [
+                    "helicopter"
+                ],
+                "description": "",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "hellosidney",
+                "aliases": [],
+                "description": "Scream Ghostface",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "howyouare",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "iamlivin",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "ifeelveryattacked",
+                "aliases": [
+                    "ifeelveryattacked",
+                    "ifeelattacked",
+                    "attacked"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "ifyoucantloveyourself",
+                "aliases": [
+                    "rupaul",
+                    "amen"
+                ],
+                "description": "Rupaul",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "inches",
+                "aliases": [],
+                "description": "🧽",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "jasonderulo",
+                "aliases": [
+                    "jason"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "jesusgross",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "joanne",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "jokingbitch",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "jurassicpark",
+                "aliases": [],
+                "description": "🦕🦖",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "lesyeux",
+                "aliases": [],
+                "description": "👀",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "leviosa",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "lily",
+                "aliases": [
+                    "lilie"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "magic",
+                "aliases": [],
+                "description": "🪄",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "magic2",
+                "aliases": [],
+                "description": "🪄",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "mamelons",
+                "aliases": [
+                    "mamelon"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "mamiesuce",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "marina",
+                "aliases": [
+                    "marinapasse"
+                ],
+                "description": "Marina passe",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "meanwhile",
+                "aliases": [],
+                "description": "🧽",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "meh",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "mevoitpas",
+                "aliases": [
+                    "cache",
+                    "cacher",
+                    "caché"
+                ],
+                "description": "Marina passe",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "moments",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "momo",
+                "aliases": [
+                    "labiteamomo"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "morsay",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "mouette",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "musiqueafond",
+                "aliases": [],
+                "description": "Marina passe",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "nanana",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "nathalie",
+                "aliases": [
+                    "natalie",
+                    "natali",
+                    "natoche"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "neeh",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "nobodygottime",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "oowoueouu",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "papi",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "pastel",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "penis",
+                "aliases": [
+                    "gimspenis"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "pet",
+                "aliases": [],
+                "description": "Choose a fart sound in a list of multiple farts.",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "petasse",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "philipe",
+                "aliases": [
+                    "enculer"
+                ],
+                "description": "",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "poufsouffle",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "profanity",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "psycho",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "pushup",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "rightinfrontofmysalad",
+                "aliases": [
+                    "salad"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "robe",
+                "aliases": [
+                    "vreument"
+                ],
+                "description": "",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "sadsong",
+                "aliases": [
+                    "sad"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "salope",
+                "aliases": [],
+                "description": "",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "senbatlescouilles",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "sexy",
+                "aliases": [
+                    "sax",
+                    "sexysax"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "situpouvaisfermertagueule",
+                "aliases": [
+                    "situpouvaisftg"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "slap",
+                "aliases": [
+                    "claque"
+                ],
+                "description": "",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "stunning",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "suce",
+                "aliases": [
+                    "sucer",
+                    "tuveuxmesucer"
+                ],
+                "description": "",
+                "date": "1.1",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "sus",
+                "aliases": [
+                    "dontbesus"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "target",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "tesla",
+                "aliases": [
+                    "tuesla"
+                ],
+                "description": "T'es la ou t'es pas la ?",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "testicule",
+                "aliases": [
+                    "cucule"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "tg",
+                "aliases": [
+                    "tagueule"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "tiddies",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "toasty",
+                "aliases": [],
+                "description": "🍞",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "toituvis",
+                "aliases": [
+                    "toitucreves"
+                ],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "tuttut",
+                "aliases": [
+                    "tutut"
+                ],
+                "description": "TUT TUT GROSSE PUTE",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "uhh",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "unholy",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "vdmrire",
+                "aliases": [
+                    "voldemortrire"
+                ],
+                "description": "Eh eh eeeeeh !",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "well",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "womfn",
+                "aliases": [],
+                "description": "Am I a womfn ?",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "wowowo",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "yaaa",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "yesdaddy",
+                "aliases": [],
+                "description": "",
+                "date": "1.0",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "sapu",
+                "aliases": [],
+                "description": "Morgan Makeup à un odora de chien flic.",
+                "date": "1.2",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "pickpocket",
+                "aliases": [],
+                "description": "ATTENZIONE PICKPOCKET !",
+                "date": "1.3",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "sltlesputes",
+                "aliases": ["salutlesputes"],
+                "description": "Martine feat Alkpote - Salut les putes.",
+                "date": "1.3",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "sale",
+                "aliases": [],
+                "description": "Martine - Sale.",
+                "date": "1.3",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "pute",
+                "aliases": [],
+                "description": "Martine x Natoo.",
+                "date": "1.3",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            },
+            {
+                "command": "allezvousfaireenculer",
+                "aliases": [],
+                "description": "Martine Allez vous faire enculer.",
+                "date": "1.3",
+                "cooldown": {
+                    "GCD": 300,
+                    "UCD": 300
+                }
+            }
+        ]
+    }
+]
