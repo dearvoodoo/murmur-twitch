@@ -147,7 +147,7 @@ $(document).ready(function() {
     })
 })
 
-var clipboard = new ClipboardJS('.clipboard');
+var clipboard = new ClipboardJS('.clipboard', { container: document.getElementById('modal') });
 
 clipboard.on('success', function(e) {
     console.info('Action:', e.action);
