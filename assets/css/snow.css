@@ -1,0 +1,12 @@
+body,
+html {
+    background-color: #111;
+    height: 100%;
+    width: 100%;
+}
+
+.snow {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
